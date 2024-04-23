@@ -1,0 +1,4 @@
+title, description, url, image_url
+School website, "This is the school website of Hoi Pippeloi. This site has been built with evidence.dev.", https://hoi.pippeloi.nl/, /img/school.png
+Soccer Analytics, "This is a side project of mine. The idea is for amateur soccer clubs to do soccer analytics using video in combination with a logging system to get insights into soccer performance.", https://app.voetlab.nl/, /img/voetlab.png
+Strava App, "This strava app takes data from anyones strava actvities and summarize these in this app.", https://qs.fact.ist/, /img/strava.png

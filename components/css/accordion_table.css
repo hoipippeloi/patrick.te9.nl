@@ -1,0 +1,72 @@
+
+a.uk-accordion-title, div.stats.header,
+span.uk-accordion-title {
+	font-size:0.9em;
+	color:#111;
+	border-bottom:1px solid #ccc;
+	padding:8px 12px;
+	background:#fff;
+	margin-bottom:-12px;
+}
+
+a.uk-accordion-title:hover {
+	background:#FFFFDD;
+}
+
+a.uk-accordion-title.header,
+span.uk-accordion-title.header {
+	cursor:auto;
+	margin-bottom: -16pxpx !important;
+	border-bottom: 1px solid #999;
+}
+
+a.uk-accordion-title.header:hover {
+	background:#f8f8f8;
+	cursor:auto;
+}
+
+a.uk-accordion-title::before,
+span.uk-accordion-title::before {
+	content:"" !important;
+	display:none;
+}
+
+div.stats.header {
+	font-size: 0.8em;
+	width:98%;
+	padding:12px;
+	background:#fff;
+	color:#999;
+	margin:0 !important;
+}
+
+div.stats {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.stats div.title {
+	width:33%;
+}
+
+div.stats div.stat {
+	width:12%;
+	min-width:8%;
+	max-width:15%;
+	border-right:1px solid #ccc;
+	text-align:right;
+	padding-right:2%;
+}
+
+div.stats div.icon {
+	width:10%;
+	border-right:0px solid #ccc;
+	text-align:left;
+	padding-left: 3%;
+}
+
+dt, dd {
+	padding:0 24px;
+}
